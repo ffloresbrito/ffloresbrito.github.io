@@ -2,11 +2,13 @@ h1, h2, h3 {
  color: #FF7A14;
 }
 
-p{
- color: #21160D;
+:link, :visited{
+ color: #E4007C;
+ text-decoration: underline dotted;
 }
 
 body{
+ color: #1A1A1A;
  background: #F3FFEB;
  font-size: 20px;
  margin-top: 20px;
