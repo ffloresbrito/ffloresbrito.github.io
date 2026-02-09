@@ -1,15 +1,19 @@
+:root{
+ color-scheme: light dark;
+}
+
 h1, h2, h3 {
- color: #EB6600;
+ color: light-dark(#EB6600, #FFB8DE);
 }
 
 :link, :visited{
- color: #A8005D;
+ color: light-dark(#A8005D, #F3FFEB);
  text-decoration: underline dotted;
 }
 
 body{
- color: #1A1A1A;
- background: #F3FFEB;
+ color: light-dark(#1A1A1A, #F9FAFB);
+ background: light-dark(#F3FFEB, #0D0D2B);
  font-size: 20px;
  margin-top: 20px;
  font-family: "Computer Modern Serif", Helvetica, sans-serif;
@@ -36,7 +40,7 @@ footer{
 #profile-picture{
  width: 13em;
  border-radius: 20px;
- border: 6px solid #EEB0C9;
+ border: 6px solid light-dark(#EEB0C9, transparent);
 }
 
 #logo{
