@@ -14,8 +14,8 @@ h1, h2, h3 {
 body{
  color: light-dark(#1A1A1A, #F9FAFB);
  background: light-dark(#F3FFEB, #0D0D2B);
- font-size: 20px;
- margin-top: 20px;
+ font-size: 17pt;
+ margin-top: 17pt;
  font-family: "Computer Modern Serif", Helvetica, sans-serif;
 }
 
@@ -39,8 +39,8 @@ footer{
 
 #profile-picture{
  width: 13em;
- border-radius: 20px;
- border: 6px solid light-dark(#EEB0C9, transparent);
+ border-radius: 15pt;
+ border: 5pt solid light-dark(#EEB0C9, transparent);
 }
 
 #logo{
