@@ -14,8 +14,8 @@ h1, h2, h3 {
 body{
  color: light-dark(#1A1A1A, #F9FAFB);
  background: light-dark(#F3FFEB, #0D0D2B);
- font-size: 17pt;
- margin-top: 17pt;
+ font-size: 15pt;
+ margin-top: 15pt;
  font-family: "Computer Modern Serif", Helvetica, sans-serif;
 }
 
