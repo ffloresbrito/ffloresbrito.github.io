@@ -39,8 +39,9 @@ footer{
 
 #profile-picture{
  width: 13em;
+ height: 17.333em;
  border-radius: 15pt;
- border: 5pt solid light-dark(#EEB0C9, transparent);
+ border: 4.5pt solid light-dark(#EEB0C9, transparent);
 }
 
 #logo{
