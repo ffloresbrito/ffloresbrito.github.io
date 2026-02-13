@@ -48,6 +48,9 @@ footer{
  width: 10em;
 }
 
+/*The Computer Modern font files in the /computer-modern/ folder and the following
+ * code to invoke them were taken from https://github.com/vsalvino/computer-modern
+ */
 @font-face {
   font-family: "Computer Modern Serif";
   font-style: normal;
