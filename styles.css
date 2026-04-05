@@ -48,6 +48,42 @@ footer{
  width: 10em;
 }
 
+/*The settings for the icons for each kind of link, as well as the design of the
+ * icons themselves, were coded by Gemini. */
+a[href^="http"]::after,
+a[href^="mailto:"]::after,
+a[download]::after,
+a[href$=".gpg"]::after {
+ content: "";
+ display: inline-block;
+ height: 1em;
+ width: 1em;
+ margin-left: 5pt;
+ vertical-align: middle;
+ background-color: currentColor;
+ background-repeat: no-repeat;
+ -webkit-mask-size: contain;
+ mask-size: contain;
+ -webkit-mask-repeat: no-repeat;
+ mask-repeat: no-repeat;
+}
+
+a[href^="http"]::after {
+ -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E");
+ mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E");
+}
+
+a[href^="mailto:"]::after {
+ -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='20' height='16' x='2' y='4' rx='2'/%3E%3Cpath d='m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7'/%3E%3C/svg%3E");
+ mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='20' height='16' x='2' y='4' rx='2'/%3E%3Cpath d='m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7'/%3E%3C/svg%3E");
+}
+
+a[download]::after,
+a[href$=".gpg"]::after {
+ -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 18v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1m4-8l5 5 5-5m-5 5V1'/%3E%3C/svg%3E");
+ mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 18v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1m4-8l5 5 5-5m-5 5V1'/%3E%3C/svg%3E");
+}
+
 /*The Computer Modern font files in the /computer-modern/ folder and the following
  * code to invoke them were taken from https://github.com/vsalvino/computer-modern
  */
